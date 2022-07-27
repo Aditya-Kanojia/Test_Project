@@ -1,0 +1,49 @@
+
+
+
+
+.add-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form{
+    padding: 30px;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     width: 30rem;
+     align-items: center;
+     background-color: aquamarine;
+     border: 2px solid grey;
+     border-radius: 30px;
+     
+    
+} 
+
+.contact-form-item{
+    display: flex;
+    margin: 10 20px;
+    align-items: center;
+
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    align-items: ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 6;
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+}
+
+
